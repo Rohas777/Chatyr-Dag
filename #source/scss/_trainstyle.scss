@@ -1,0 +1,26 @@
+.train {
+    margin: 15px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(110, 225, 110);
+    border-radius: 30px;
+    color: #fff;
+    letter-spacing: 2.8px;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.5);
+    & span {
+        padding: 0 30px 0 0;
+        background: url(../img/shape_2_9.png) right no-repeat;
+    }
+    &:hover {
+        background-color: rgb(105, 188, 105);
+    }
+    &:active {
+        bottom: 17px;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+    }
+}
